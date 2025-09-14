@@ -6,5 +6,61 @@
 
 body {
   background-color: #1b1b1b;
-  font-family: "Figtree", sans-serif;
+  color: #fff;
+  font-family: "montserrat", sans-serif;
+}
+
+p {
+  font-family: "figtree", sans-serif;
+}
+
+.section {
+  position: relative;
+  height: 100vh;
+}
+
+.max-width {
+  max-width: 1400px;
+}
+
+:root {
+  --gradient-green: linear-gradient(135deg, #0df205, #0b4109);
+  --main-green: #0df205;
+}
+
+.btn {
+  border: 1px solid #80aa8f;
+  background: var(--gradient-green);
+  padding: 0.5rem 1.5rem;
+  border-radius: 3rem;
+  color: #fff;
+}
+
+.container {
+  max-width: 1400px;
+}
+
+.green {
+  color: var(--main-green);
+}
+
+.bold {
+  font-weight: 900;
+}
+
+.semi-bold {
+  font-weight: 300;
+}
+
+.container-grid {
+  position: relative;
+  z-index: 1;
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0 1rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+  align-items: center;
+  justify-content: center;
 }

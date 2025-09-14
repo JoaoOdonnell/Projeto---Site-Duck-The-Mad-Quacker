@@ -6,7 +6,8 @@
     <title>Duck The Mad Quacker</title>
     <link rel="stylesheet" href="CSS/general.css" />
     <link rel="stylesheet" href="CSS/header.css" />
-    <link rel="stylesheet" href="CSS/main.css" />
+    <link rel="stylesheet" href="CSS/hero.css" />
+    <link rel="stylesheet" href="CSS/about.css" />
     <link href="https://fonts.googleapis.com/css2?family=Figtree:wght@400;600;700&display=swap" rel="stylesheet" />
   </head>
   <body>
@@ -20,12 +21,57 @@
           <li><a href="#sobre">Sobre</a></li>
           <li><a href="#servicos">O Que Eu Faço</a></li>
           <li><a href="#portfolio">Portfólio</a></li>
-          <li><a class="btn" href="#">Orçamento</a></li>
+          <li><a class="btn" href="#contato">Orçamento</a></li>
         </ul>
       </nav>
     </header>
 
-    <main id="home"></main>
+    <!-- SECTION HERO -->
+    <section class="hero section">
+      <video autoplay muted loop playsinline class="hero-video">
+        <source src="assets/images/motion-background.mp4" type="video/mp4" />
+      </video>
+
+      <div class="container-grid">
+        <div class="hero-copy">
+          <h1>
+            <span class="bold">Histórias que conectam,</span> <br /><span class="semi-bold">vídeos que impactam.</span>
+          </h1>
+
+          <p>
+            Transformo <strong class="green">ideias em produções audiovisuais</strong> criativas para <br />
+            <strong class="green">marcas que querem se destacar.</strong>
+          </p>
+
+          <a class="btn-hero btn" href="#portfolio">
+            <img class="play-icon" src="assets/images/player-icon.svg" alt="icone de play" />
+            <span>Assistir vídeos</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION ABOUT -->
+    <section class="section about">
+      <div>
+        <img src="assets/images/background.png" alt="background" />
+      </div>
+      <div class="container-grid">
+        <div>
+          <h2>Olá, me chamo <span class="font-duck">Duck!</span></h2>
+          <p>
+            Fala tu, leitor(a)! Como está? Me chamo João, mas pode me chamar de Duck. Sou videomaker e um grande
+            sonhador! Edito vídeos desde 2011, profissionalmente desde 2016. Amo contar histórias através do
+            audiovisual, desde de muito novo me interessava em criar narrativas com o poder da edição de vídeo. A paixão
+            pela criação através da minha ótica só cresceu, e logo em seguida, fui direto para as câmeras. E pude além
+            de trabalhar com a edição, trabalhar também com captações de cenas e roteiros variados. Hoje em dia
+            sou editor-chefe da produtora audiovisual FOR REAL COMPANY, atendendo grandes marcas, youtubers e outros
+            criadores de conteúdo. Os softwares que uso para editar um vídeo é o nosso querido Premiere Pro e o
+            temível After Effects. Você já viu meus trabalhos?
+          </p>
+        </div>
+      </div>
+    </section>
 
     <script src="script.js"></script>
   </body>
